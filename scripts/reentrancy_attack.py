@@ -1,4 +1,4 @@
-from brownie import accounts, Bank, Attacker
+from brownie import accounts, UnsafeBank, Attacker
 
 
 account = accounts[0]

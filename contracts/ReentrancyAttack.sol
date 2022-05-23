@@ -8,7 +8,7 @@ interface IBank {
 }
 
 // Unsafe bank
-contract Bank {
+contract UnsafeBank {
 
 
     mapping(address => uint) public balances;
